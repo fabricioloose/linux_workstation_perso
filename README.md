@@ -1,20 +1,19 @@
 # linux_workstation_perso
 Linux Workstation Persionalization for Business
 
-Este conjunto de script foi desenvolvido para implantação de um ambiente com estações de trabalho Linux, com a finalidade de proprocionar integração com: Active Directory para login via LDAP, mapeamentos dinâmicos através de um servidor SAMBA, personalização de toda Área de Trabalho do usuário.
+This script set was developed to deploy an environment with Linux workstations, in order to provide integration with: Active Directory to login via LDAP, dynamic mappings through a SAMBA server, customization of the entire user's desktop.
 
-Aplica papel de parede.
-Mapeamentos dinâmicos.
-Customização de chrome e firefox.
-Customização de icones.
+Apply wallpaper.
+Dynamic mappings.
+Customization of chrome and firefox.
+Customization of icons.
 
-Tudo esta documentado nos scripts.
+Everything is documented in the scripts.
 
-Os scripts estão divididos em três partes.
+The scripts are divided into three parts.
 
-1. (config_1404.sh) Para post-install do sistema Ubuntu Mate, com todas as opções de instalação de aplicativos: java oracle, PDF Editor, Libreoffice, Psi (openfire client), WPS Office, RDP client, Lexmark print Dirvers, Auto Domain Configurator, etc.
+1. (config_1404.sh) For post-install of the Ubuntu Mate system, with all the installation options of applications: java oracle, PDF Editor, Libreoffice, Psi (openfire client), WPS Office, RDP client, Lexmark print Dirvers, Auto Domain Configurator, etc.
 
-2. (local_1404.sh) Para realizar o mapeamento dinâmico conforme o profile do usuário.
+2. (local_1404.sh) To perform dynamic mapping according to the user's profile.
 
-3. (login_1404.sh) Para realizar as personalização do perfil local do usuário. Aplica papel de parede, proxy, personaliza mate, perso icons. etc.
-
+3. (login_1404.sh) To customize the user's local profile. Apply wallpaper, proxy, customize mate, perso icons. etc.
